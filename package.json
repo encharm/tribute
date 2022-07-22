@@ -1,11 +1,12 @@
 {
   "name": "tributejs",
-  "version": "5.1.3",
+  "version": "5.1.4",
   "description": "Native ES6 @mentions",
   "main": "dist/tribute.js",
   "module": "dist/tribute.esm.js",
   "browser": "dist/tribute.min.js",
   "types": "tributejs.d.ts",
+  "files": ["dist/**", "tributejs.d.ts"],
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
